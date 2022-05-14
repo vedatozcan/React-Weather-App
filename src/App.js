@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { usePosition } from "use-position";
-import Weather from "./components/HavaDurumu";
+import Weather from "./components/Weather";
 
 const App = () => {
   const [weather, setWeather] = useState();
